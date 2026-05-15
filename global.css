@@ -8,3 +8,46 @@ body {
   margin: auto;
   padding: 1em;
 }
+
+header {
+  display: flex;
+  gap: 1em;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 0.5em;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+header p {
+  margin: 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+header label {
+  margin-left: auto;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+header label time,
+header label em {
+  display: block;
+  min-width: 6em;
+}
+
+header label em {
+  color: #999;
+  font-style: italic;
+}
+
+#time-slider {
+  cursor: pointer;
+}
